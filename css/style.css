@@ -1,0 +1,170 @@
+.container{
+	width: 90%;
+	font-family: arial;
+}
+*{
+	border-radius: 10px;
+}
+body{
+	display: flex;
+	justify-content: center;
+	background:#B3E5FC; 
+
+}
+.h1{
+	display: flex;
+	justify-content: center;
+}
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+img{
+	width: 200px;
+}
+.menu{
+	height: 100%;
+	width: 80%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+button{
+	background: transparent;
+	border: 1px solid transparent;
+	color: white;
+	margin-right: 5px;
+	transition: 1s;
+}
+.button-head:hover{
+	background: #29f04d;
+}
+.in-footer:hover{
+	background: #B3E5FC;
+	color: black;
+}
+.header{
+	width: 100%;
+	height: 150px;
+	display: flex;
+
+	align-items: center;
+	background: #0097A7;
+}
+.logo{
+	width: 100px;
+	margin-left: 20px;
+}
+.city{
+	width: 700px;
+}
+.main{
+	display: flex;
+	width: 100%;
+	height: 400px;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 25px;
+	background:#2adeae;
+}
+.society{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 500px;
+	margin-top: 25px;
+	background: #27e38b;
+}
+.in-society{
+	width: 400px;
+	height: 450px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 20px;
+	font-size: 17px;
+}
+.p1{
+	font-size: 27px;
+}
+h2{
+	font-size: 20px;
+}
+.down-main{
+	height: 400px;
+	background: #2ade7b;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 25px;
+}
+.cards{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.card{
+	position: relative;
+	width: 300px;
+	height: 300px;
+	border-radius: 10px;
+	perspective: 1000px;
+}
+span{
+	margin-left: 20px;
+	height: 100px;
+	width: 200px;
+	font-size: 20px;
+}
+.front{
+	position: absolute;
+}
+.in-card{
+	width: 300px;
+	border-radius: 10px;
+}
+.back{
+	background: #B3E5FC;
+	width: 300px;
+	height:300px;
+	border-radius: 10px;
+	transform: rotateY(180deg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.front, .back{
+	backface-visibility: hidden;
+	transition: 1s;
+}
+.card:hover .front{transform: rotateY(180deg);}
+.card:hover .back{transform: rotateY(360deg);}
+
+.footer{
+	width: 100%;
+	height:100px;
+	margin-top: 25px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: #1be084;
+}
+.footer-img{
+	width: 15px;
+}
+.p{
+	font-size: 25px;
+}
+.footer-img{
+	width: 22.5px;
+	margin-right: 5px;
+}
+.in-footerr{
+	font-size: 22.5px;
+}
+.in-footer{
+	font-size: 22.5px;
+}
